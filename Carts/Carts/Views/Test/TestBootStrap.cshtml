@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TestBootStrap</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div> 
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button type="button" id="btnGroupVerticalDrop1" class="dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="btnGroupVerticalDrop1">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

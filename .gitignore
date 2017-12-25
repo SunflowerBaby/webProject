@@ -1,7 +1,12 @@
-#加在裡面的資料夾或檔案名稱，將會被git忽略，不列入track。
+﻿#加在裡面的資料夾或檔案名稱，將會被git忽略，不列入track。
 #資料夾
-/bin
-/obj
-/.vs
+bin/
+obj/
+.vs/
 #檔案
 *.sln
+
+
+/webProject/Carts/Carts/obj
+/webProject/Carts/Carts/bin
+/webProject/Carts/Carts/.vs
